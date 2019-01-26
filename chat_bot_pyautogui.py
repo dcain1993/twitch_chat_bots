@@ -207,7 +207,7 @@ def twitch_irc():
                 print(user + " : " + message)
 
 
-threading.Thread(target=twitch_irc).start() # A thread that starts twitch_irc
+#threading.Thread(target=twitch_irc).start() # A thread that starts twitch_irc
 
 # I chose threading for efficiency plus researched the use of it and was fun to use, also allows for expansion.
 # Threading tends to be used where a task involves some waiting, other code can be executed during the wait time.
@@ -216,7 +216,7 @@ threading.Thread(target=twitch_irc).start() # A thread that starts twitch_irc
 #
 # If using multiple threads the below commented code is the process.
 ###################################################################
-#if __name__ == '__main__':
-#   thread_one = threading.Thread(target=twitch_irc).start()
-#   thread_two = threading.Thread(target=).start()
+if __name__ == '__main__':
+   thread_one = threading.Thread(target=twitch_irc).start()
+   thread_two = threading.Thread(target=emulator_control).start()
 #   thread_three = threading.Thread(target=).start()
