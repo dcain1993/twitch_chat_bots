@@ -1,5 +1,5 @@
 # twitch_chat_bots
-Twitch: dcain (Chat bots) (Emulator Control)
+emuChatBot Twitch: dcain (Chat bots) (Emulator Control)
 
 Part 1: Chat bot example connecting and reading chat
 
